@@ -1,0 +1,396 @@
+$date
+	Fri Aug 08 19:21:08 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_local_mac $end
+$var wire 15 ! mac_out [14:0] $end
+$var reg 8 " rwlb_row0 [7:0] $end
+$var reg 8 # rwlb_row1 [7:0] $end
+$var reg 1 $ sus $end
+$var reg 96 % wb0 [95:0] $end
+$var reg 96 & wb1 [95:0] $end
+$scope module uut $end
+$var wire 8 ' rwlb_row0 [7:0] $end
+$var wire 8 ( rwlb_row1 [7:0] $end
+$var wire 1 $ sus $end
+$var wire 96 ) wb0 [95:0] $end
+$var wire 96 * wb1 [95:0] $end
+$var wire 15 + mac_out [14:0] $end
+$scope module add1_0 $end
+$var wire 1 $ sus $end
+$var wire 13 , sum [12:0] $end
+$var wire 13 - b_signed [12:0] $end
+$var wire 12 . b [11:0] $end
+$var wire 13 / a_signed [12:0] $end
+$var wire 12 0 a [11:0] $end
+$var parameter 32 1 width $end
+$upscope $end
+$scope module add1_1 $end
+$var wire 1 $ sus $end
+$var wire 13 2 sum [12:0] $end
+$var wire 13 3 b_signed [12:0] $end
+$var wire 12 4 b [11:0] $end
+$var wire 13 5 a_signed [12:0] $end
+$var wire 12 6 a [11:0] $end
+$var parameter 32 7 width $end
+$upscope $end
+$scope module add1_2 $end
+$var wire 1 $ sus $end
+$var wire 13 8 sum [12:0] $end
+$var wire 13 9 b_signed [12:0] $end
+$var wire 12 : b [11:0] $end
+$var wire 13 ; a_signed [12:0] $end
+$var wire 12 < a [11:0] $end
+$var parameter 32 = width $end
+$upscope $end
+$scope module add1_3 $end
+$var wire 1 $ sus $end
+$var wire 13 > sum [12:0] $end
+$var wire 13 ? b_signed [12:0] $end
+$var wire 12 @ b [11:0] $end
+$var wire 13 A a_signed [12:0] $end
+$var wire 12 B a [11:0] $end
+$var parameter 32 C width $end
+$upscope $end
+$scope module add2_0 $end
+$var wire 13 D a [12:0] $end
+$var wire 13 E b [12:0] $end
+$var wire 1 $ sus $end
+$var wire 14 F sum [13:0] $end
+$var wire 14 G b_signed [13:0] $end
+$var wire 14 H a_signed [13:0] $end
+$var parameter 32 I width $end
+$upscope $end
+$scope module add2_1 $end
+$var wire 13 J a [12:0] $end
+$var wire 13 K b [12:0] $end
+$var wire 1 $ sus $end
+$var wire 14 L sum [13:0] $end
+$var wire 14 M b_signed [13:0] $end
+$var wire 14 N a_signed [13:0] $end
+$var parameter 32 O width $end
+$upscope $end
+$scope module add3_0 $end
+$var wire 14 P a [13:0] $end
+$var wire 14 Q b [13:0] $end
+$var wire 1 $ sus $end
+$var wire 15 R sum [14:0] $end
+$var wire 15 S b_signed [14:0] $end
+$var wire 15 T a_signed [14:0] $end
+$var parameter 32 U width $end
+$upscope $end
+$scope module mult0 $end
+$var wire 12 V a [11:0] $end
+$var wire 12 W b [11:0] $end
+$var wire 1 X c $end
+$var wire 1 Y d $end
+$var wire 12 Z e [11:0] $end
+$var wire 12 [ d_ext [11:0] $end
+$var wire 12 \ c_ext [11:0] $end
+$upscope $end
+$scope module mult1 $end
+$var wire 12 ] a [11:0] $end
+$var wire 12 ^ b [11:0] $end
+$var wire 1 _ c $end
+$var wire 1 ` d $end
+$var wire 12 a e [11:0] $end
+$var wire 12 b d_ext [11:0] $end
+$var wire 12 c c_ext [11:0] $end
+$upscope $end
+$scope module mult2 $end
+$var wire 12 d a [11:0] $end
+$var wire 12 e b [11:0] $end
+$var wire 1 f c $end
+$var wire 1 g d $end
+$var wire 12 h e [11:0] $end
+$var wire 12 i d_ext [11:0] $end
+$var wire 12 j c_ext [11:0] $end
+$upscope $end
+$scope module mult3 $end
+$var wire 12 k a [11:0] $end
+$var wire 12 l b [11:0] $end
+$var wire 1 m c $end
+$var wire 1 n d $end
+$var wire 12 o e [11:0] $end
+$var wire 12 p d_ext [11:0] $end
+$var wire 12 q c_ext [11:0] $end
+$upscope $end
+$scope module mult4 $end
+$var wire 12 r a [11:0] $end
+$var wire 12 s b [11:0] $end
+$var wire 1 t c $end
+$var wire 1 u d $end
+$var wire 12 v e [11:0] $end
+$var wire 12 w d_ext [11:0] $end
+$var wire 12 x c_ext [11:0] $end
+$upscope $end
+$scope module mult5 $end
+$var wire 12 y a [11:0] $end
+$var wire 12 z b [11:0] $end
+$var wire 1 { c $end
+$var wire 1 | d $end
+$var wire 12 } e [11:0] $end
+$var wire 12 ~ d_ext [11:0] $end
+$var wire 12 !" c_ext [11:0] $end
+$upscope $end
+$scope module mult6 $end
+$var wire 12 "" a [11:0] $end
+$var wire 12 #" b [11:0] $end
+$var wire 1 $" c $end
+$var wire 1 %" d $end
+$var wire 12 &" e [11:0] $end
+$var wire 12 '" d_ext [11:0] $end
+$var wire 12 (" c_ext [11:0] $end
+$upscope $end
+$scope module mult7 $end
+$var wire 12 )" a [11:0] $end
+$var wire 12 *" b [11:0] $end
+$var wire 1 +" c $end
+$var wire 1 ," d $end
+$var wire 12 -" e [11:0] $end
+$var wire 12 ." d_ext [11:0] $end
+$var wire 12 /" c_ext [11:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1110 U
+b1101 O
+b1101 I
+b1100 C
+b1100 =
+b1100 7
+b1100 1
+$end
+#0
+$dumpvars
+b0 /"
+b0 ."
+b111111111111 -"
+0,"
+0+"
+b0 *"
+b0 )"
+b0 ("
+b0 '"
+b111111111111 &"
+0%"
+0$"
+b0 #"
+b0 ""
+b0 !"
+b0 ~
+b111111111111 }
+0|
+0{
+b0 z
+b0 y
+b0 x
+b0 w
+b111111111111 v
+0u
+0t
+b0 s
+b0 r
+b0 q
+b0 p
+b111111111111 o
+0n
+0m
+b0 l
+b0 k
+b0 j
+b0 i
+b111111111111 h
+0g
+0f
+b0 e
+b0 d
+b0 c
+b0 b
+b111111111111 a
+0`
+0_
+b0 ^
+b0 ]
+b0 \
+b0 [
+b111111111111 Z
+0Y
+0X
+b0 W
+b0 V
+b11111111111100 T
+b11111111111100 S
+b111111111111000 R
+b11111111111100 Q
+b11111111111100 P
+b1111111111110 N
+b1111111111110 M
+b11111111111100 L
+b1111111111110 K
+b1111111111110 J
+b1111111111110 H
+b1111111111110 G
+b11111111111100 F
+b1111111111110 E
+b1111111111110 D
+b111111111111 B
+b111111111111 A
+b111111111111 @
+b111111111111 ?
+b1111111111110 >
+b111111111111 <
+b111111111111 ;
+b111111111111 :
+b111111111111 9
+b1111111111110 8
+b111111111111 6
+b111111111111 5
+b111111111111 4
+b111111111111 3
+b1111111111110 2
+b111111111111 0
+b111111111111 /
+b111111111111 .
+b111111111111 -
+b1111111111110 ,
+b111111111111000 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+b111111111111000 !
+$end
+#10000
+b0 T
+b111111110000 !
+b111111110000 +
+b111111110000 R
+b111111110000 S
+b0 H
+b0 F
+b0 P
+b0 G
+b0 N
+b111111110000 L
+b111111110000 Q
+b111111110000 M
+b0 /
+b0 ,
+b0 D
+b0 -
+b0 5
+b0 2
+b0 E
+b0 3
+b0 ;
+b0 8
+b0 J
+b0 9
+b0 A
+b111111110000 >
+b111111110000 K
+b111111110000 ?
+b0 0
+b0 Z
+b0 .
+b0 a
+b0 6
+b0 h
+b0 4
+b0 o
+b0 <
+b0 v
+b0 :
+b0 }
+b0 B
+b0 &"
+b111111110000 @
+b111111110000 -"
+b111111111111 [
+1Y
+b111111111111 \
+1X
+b111111111111 W
+b111111111111 ^
+b111111111111 e
+b111111111111 l
+b111111111111 s
+b111111111111 z
+b111111111111 #"
+b1111 *"
+b111111111111 V
+b111111111111 ]
+b111111111111 d
+b111111111111 k
+b111111111111 r
+b111111111111 y
+b111111111111 ""
+b1111 )"
+b1 #
+b1 (
+b1 "
+b1 '
+b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 &
+b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 *
+b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 %
+b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 )
+#20000
+b1111111111111 A
+b111111111111 B
+b111111111111 &"
+b111111111111 @
+b111111111111 -"
+b111111111111110 !
+b111111111111110 +
+b111111111111110 R
+b111111111111110 S
+b11111111111110 L
+b11111111111110 Q
+b11111111111110 M
+b0 [
+0Y
+b0 \
+0X
+b111111111111 j
+1f
+b111111111111 q
+1m
+b111111111111 x
+1t
+b111111111111 !"
+1{
+b111111111111 ("
+1$"
+b111111111111 /"
+1+"
+b0 #"
+b0 *"
+b0 ""
+b0 )"
+b1111111111110 >
+b1111111111110 K
+b1111111111111 ?
+b0 #
+b0 (
+b11111100 "
+b11111100 '
+b111111111111111111111111111111111111111111111111111111111111111111111111 &
+b111111111111111111111111111111111111111111111111111111111111111111111111 *
+b111111111111111111111111111111111111111111111111111111111111111111111111 %
+b111111111111111111111111111111111111111111111111111111111111111111111111 )
+1$
+#50000
