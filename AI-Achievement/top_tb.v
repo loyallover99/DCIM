@@ -45,7 +45,7 @@ module top_tb;
             WA = address;
             D = data;
             @(posedge clk); // Wait for the write to be captured
-            //WA = 8'b0;      // De-assert address to prevent re-writing
+            WA = 8'b0;      // De-assert address to prevent re-writing
         end
     endtask
 
